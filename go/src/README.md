@@ -19,7 +19,9 @@ Sample testing app for extracting system users.
   "shell": "/bin/bash"
  }
 ]
+
 [your_host src]$ vi main.go
+
 [your_host src]$ go run main.go -format=csv
 name,id,home,shell
 some_user_1,1000,/home/some_user_2,/bin/bash
